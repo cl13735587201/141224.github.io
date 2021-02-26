@@ -44,6 +44,10 @@ class home extends React.Component {
             this.setState({
                 current: 2,
             });
+        } else if (scrollTop > 1800 && scrollTop < 2400) {
+            this.setState({
+                current: 3,
+            });
         }
 }
     render() {
@@ -54,10 +58,11 @@ class home extends React.Component {
                     <Step title="关键词" icon={<SmileOutlined twoToneColor="#eb2f96"/>}/>
                     <Step title="健身" icon={<CrownOutlined twoToneColor="#66CD00"/>} description=""/>
                     <Step title="宠物" icon={<BugOutlined twoToneColor="#FFA042"/>} description=""/>
+                    <Step title="兴趣" icon={<BugOutlined twoToneColor="#FFA042"/>} description=""/>
                 </Steps>
-                {/* <Start></Start>
+                <Start></Start>
                 <Run></Run>
-                <Kitty></Kitty> */}
+                <Kitty></Kitty>
                 <Hobby></Hobby>
             </div>
         )
