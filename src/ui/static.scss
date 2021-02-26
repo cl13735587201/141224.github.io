@@ -1,0 +1,69 @@
+$font-size:16px !default;
+
+@function rem($px){
+  //$px为需要转换的字号
+  @return $px / ($font-size/($font-size*0+1)) * 1rem;
+}
+
+%clearfloat{
+  &:after {content: ""; display: table; clear: both; overflow: hidden; }
+}
+%center_flex{display: flex;justify-content: center;align-items: center;}
+%text_overflow{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+%text_overflow2{word-break:break-all; text-overflow:ellipsis; display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:2; overflow:hidden;}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,input,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	font-size:rem(16);
+	line-height:1;
+	font-style:normal;
+	font-family:PHL,MP-light,Segoe UI,"Helvetica Neue",Helvetica,Arial,"微软雅黑",sans-serif;
+	-webkit-text-size-adjust:none;
+	text-decoration:none;
+	border-radius:1px;
+	box-sizing:border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html{
+	font-size:$font-size;
+}
