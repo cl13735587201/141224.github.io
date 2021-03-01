@@ -66,10 +66,10 @@ class home extends React.Component {
                     <Step title="健身" icon={<CrownOutlined twoToneColor="#66CD00"/>} description=""/>
                     <Step title="兴趣" icon={<CoffeeOutlined twoToneColor="#FFA042"/>} description=""/>
                 </Steps>
-                <Start></Start>
+                {/* <Start></Start>
                 <Work></Work>
                 <Kitty></Kitty>
-                <Run></Run>
+                <Run></Run> */}
                 <Hobby></Hobby>
             </div>
         )
