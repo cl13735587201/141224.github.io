@@ -171,7 +171,7 @@ class hobby extends React.Component{
                     }}
                     animation={aAnimation}
                 >
-                    <img src={image} width="100%" height="100%"/>
+                    <img alt="" src={image} width="100%" height="100%"/>
                 </TweenOne>
                 <TweenOneGroup
                     enter={[

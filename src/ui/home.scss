@@ -51,7 +51,8 @@
 .events .ant-badge-status {width: 100%;overflow: hidden;font-size: 12px;white-space: nowrap;text-overflow: ellipsis;}
 .notes-month {font-size: 28px;text-align: center;}
 .notes-month section {font-size: 28px;}
-
+.ant-picker-calendar.ant-picker-calendar-full {width: rem(1000);margin: auto;padding-top: rem(60);}
+.ant-picker-calendar-full .ant-picker-panel .ant-picker-calendar-date-content{height: rem(64) !important;}
 // 丑丑页面
 .carousel-demo-wrapper {position: relative;background:#FFA042;overflow: hidden;height: 100%;}
 .carousel-demo {width: 100%;height: 100%;}
@@ -85,4 +86,14 @@
   @media screen and (max-width: rem(320)) {
     .picDetails{transform: scale(.5) translateX(rem(12));}
   }
+  .anticon.anticon-close-circle{position: absolute; right:rem(10);top: rem(10);width: rem(20); height: rem(20);}
+  .anticon.anticon-close-circle svg{width: 100%; height: 100%;}
 
+
+.C.work .content{width:rem(800);height: rem(700);margin: auto; padding-top: rem(60);}
+.C.work .content .intro{position: relative; display: flex;justify-content: center;align-items: center; flex-direction: column;width: rem(300);height: rem(180);margin: rem(45) 0;}
+.C.work .content .key{font-size: rem(24);line-height: 1.5;}
+.C.work .content .value{font-size: rem(15);line-height: 1.5;text-align: center;}
+.C.work .content .intro .img{position:absolute;top:0;right:rem(-460);width:rem(270);height: rem(170);background-size: cover;}
+.C.work .content .intro2{margin-left: rem(460);}
+.C.work .content .intro2 .img{right:auto; left:rem(-460);background-image: url(/ui/image/home/screen3_2.png);}
