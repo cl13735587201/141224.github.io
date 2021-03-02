@@ -1,6 +1,6 @@
 @import "./ui/static.scss";
 
-.P.home{ width: 100%; height: auto;background-color: #fff;}
+.P.home{ width: 100%; height: 800px;background-color: #fff;}
 
 .P.home .C{position: relative; width: 100%; height: rem(800);}
 .ant-steps.ant-steps-vertical{position: fixed;left:0;top: 40%;z-index:10; width: rem(140)}
