@@ -238,14 +238,14 @@ class Carousel3d extends React.PureComponent {
     }
   }
   const imgWrapper = [
-    'https://wx2.sinaimg.cn/mw1024/6cdda468ly1gnyledtdu4j22c0340e81.jpg',
-    'https://wx4.sinaimg.cn/mw1024/6cdda468ly1gnylecgtawj22c02c0npd.jpg',
-    'https://wxt.sinaimg.cn/mw1024/6cdda468ly1gnyl83tlpvj21ho1zkhdx.jpg?tags=%5B%5D',
-    'https://wx1.sinaimg.cn/mw1024/6cdda468ly1gnyl89bxoej21ho1zku11.jpg',
-    'https://wxt.sinaimg.cn/mw1024/6cdda468ly1gnyl867oykj21ho1zkhdy.jpg?tags=%5B%5D',
-    'https://wx1.sinaimg.cn/mw1024/6cdda468ly1gnyl8bg95xj21ho1zkhdy.jpg',
-    'https://wx2.sinaimg.cn/mw1024/6cdda468ly1gnyljs7vmdj22c0340hdt.jpg',
-    'https://wx2.sinaimg.cn/mw1024/6cdda468ly1gnyljtsn0pj225j2venpe.jpg',
+    'https://s3.ax1x.com/2021/03/05/6efUsO.jpg',
+    'https://s3.ax1x.com/2021/03/05/6efNQK.jpg',
+    'https://s3.ax1x.com/2021/03/05/6efYz6.jpg',
+    'https://s3.ax1x.com/2021/03/05/6efGJ1.jpg',
+    'https://s3.ax1x.com/2021/03/05/6ef8iR.jpg',
+    'https://s3.ax1x.com/2021/03/05/6efaLD.jpg',
+    'https://s3.ax1x.com/2021/03/05/6efwee.jpg',
+    'https://s3.ax1x.com/2021/03/05/6mdGUU.jpg',
   ]
   function Carousel() {
     const children = imgWrapper.map((src, i) => (
